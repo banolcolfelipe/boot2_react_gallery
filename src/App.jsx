@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navigation } from './components/Navigation';
 import { Salento } from './components/Salento';
 import { Buenavista } from './components/Buenavista';
+import { Circasia } from './components/Circasia';
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
          
             <Route path="/Salento1" element={<Salento className='image-size'/>} />
             <Route path="/Buenavista2" element={<Buenavista className='image-size'/>} />
-
+            <Route path="/Circasia3" element={<Circasia className='image-size'/>} />
           </Routes>
         </div>
         <div className='container'>

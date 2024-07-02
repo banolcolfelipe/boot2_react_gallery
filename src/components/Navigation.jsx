@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Salento } from "./Salento";
 import { Buenavista } from "./Buenavista";
+import { Circasia } from "./Circasia";
 
 export const Navigation = () => {
   return (
@@ -22,6 +23,13 @@ export const Navigation = () => {
         </figure>
      </Link>
      
+     <Link to="/Circasia3" className="links">
+        <figure className= "image-size">
+          <Circasia/>
+          <figcaption>Circasia</figcaption>
+        </figure>
+     </Link> 
+
     </div>
   )
 }
