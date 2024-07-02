@@ -2,13 +2,12 @@ import { Link } from "react-router-dom";
 import { Salento } from "./Salento";
 import { Buenavista } from "./Buenavista";
 import { Circasia } from "./Circasia";
+import { Filandia } from "./Filandia"
 
 export const Navigation = () => {
   return (
     <div className="container mt-4 father">
       
-
-
       <Link to="/Salento1" className="links">
         <figure className="image-size">
           <Salento/>
@@ -29,6 +28,14 @@ export const Navigation = () => {
           <figcaption>Circasia</figcaption>
         </figure>
      </Link> 
+
+     <Link to="/Filandia4" className="links">
+        <figure className= "image-size">
+          <Filandia/>
+          <figcaption>Filandia</figcaption>
+        </figure>
+     </Link> 
+
 
     </div>
   )
