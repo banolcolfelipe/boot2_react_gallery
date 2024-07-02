@@ -3,6 +3,8 @@ import { Salento } from "./Salento";
 import { Buenavista } from "./Buenavista";
 import { Circasia } from "./Circasia";
 import { Filandia } from "./Filandia"
+import { ParqueDelCafe } from "./ParqueDelCafe";
+import { Armenia } from "./Armenia";
 
 export const Navigation = () => {
   return (
@@ -36,7 +38,19 @@ export const Navigation = () => {
         </figure>
      </Link> 
 
+     <Link to="/ParqueDelCafe5" className="links">
+        <figure className= "image-size">
+          <ParqueDelCafe/>
+          <figcaption>Parque del Cafe</figcaption>
+        </figure>
+     </Link> 
 
+     <Link to="/Armenia6" className="links">
+        <figure className= "image-size">
+          <Armenia/>
+          <figcaption>Armenia</figcaption>
+        </figure>
+     </Link> 
     </div>
   )
 }

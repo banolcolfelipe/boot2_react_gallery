@@ -5,6 +5,8 @@ import { Salento } from './components/Salento';
 import { Buenavista } from './components/Buenavista';
 import { Circasia } from './components/Circasia';
 import { Filandia } from './components/Filandia';
+import { ParqueDelCafe } from './components/ParqueDelCafe';
+import { Armenia } from './components/Armenia';
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
             <Route path="/Buenavista2" element={<Buenavista className='image-size'/>} />
             <Route path="/Circasia3" element={<Circasia className='image-size'/>} />
             <Route path="/Filandia4" element={<Filandia className='image-size'/>} />
+            <Route path="/ParqueDelCafe5" element={<ParqueDelCafe className='image-size'/>} />
+            <Route path="/Armenia6" element={<Armenia className='image-size'/>} />
             
           </Routes>
         </div>
